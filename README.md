@@ -34,7 +34,7 @@ the user is responsible.
 
 ---
 
-<h2> 📢 Guide 📢 </h2>
+<h1> 📢 Guide 📢 </h1>
 
 > [Join For Support & Helps On Telegram.](https://t.me/Qtell_1)
 
@@ -104,7 +104,7 @@ bash <(curl -L https://tinyurl.com/Alpha-X-QR-CODE)
 
 ---
 
-<h2> 🔱 Hard Method 🔱 </h2>
+<h1> 🔱 Hard Method 🔱 </h1>
 
 ```sh
 $ git clone https://github.com/Red-Alison/Alpha-X-WA-Bot.git
@@ -691,12 +691,12 @@ but i think you don't have anything to change :)
 
 ---
 
-<h2> License </h2>
+<h1> License </h1>
 This project is protected by `GNU General Public Licence v3.0` license.
 
 ---
 
-<h2> ⚡ Developers 🔥 </h2>
+<h1> ⚡ Developers 🔥 </h1>
   <div align="center">
     
   [![SL ALPHA](https://github.com/SL-Alpha-X.png?size=110)](https://github.com/SL-Alpha-X) |  [![Alison](https://github.com/red-alison.png?size=110)](https://github.com/red-alison) 
