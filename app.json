@@ -1,0 +1,297 @@
+ 
+ ​{ 
+ ​    ​"name"​: ​"​Alpha-X Whatsapp User Bot​"​,  
+ ​    ​"description"​: ​"​🚀 Alpha-X project is bot for whatsapp, With enjoyable things and fun to use whatsapp 😉 | World first fully customizable bot for WhatsApp.​"​, 
+ ​    ​"logo"​: ​"​https://telegra.ph/file/c265e654e3ec87c78d984.jpg​"​, 
+ ​    ​"keywords"​: [​"​whatsapp​"​, ​"​userbot​"​, ​"​Asena​"​, ​"​WhatsAsena​"​, ​"​bot​"​, ​"​api​"​, ​"​ai​"​, ​"​alpha​"​, ​"​node.js​"​, ​"​fb​"​, ​"​wtzp​"​, ​"​userbot​"​, ​"​insta​"​, ​"​srilanka​"​, ​"​keywords​"​, ​"​team​"​], 
+ ​    ​"repository"​: ​"​https://github.com/SL-Alpha-X-Team/Alpha-X-WA-Bot​"​, 
+ ​    ​"website"​: ​"​https://alpha-x.ml/wa-bot​"​, 
+ ​    ​"success_url"​: ​"​https://alpha-x.ml/wa-bot​"​, 
+ ​    ​"stack"​: ​"​container​"​, 
+ ​    ​"env"​: { 
+ ​        ​"_ALPHA_SESSION"​: { 
+ ​            ​"description"​: ​"​Type here your QR code. Get it using >> https://replit.com/@AlphaXteam​"​, 
+ ​            ​"required"​: ​true 
+ ​        }, 
+ ​        ​"XTEAM_API_KEY"​: { 
+ ​            ​"description"​: ​"​Xteam API key get it using >> xteam.xyz​"​, 
+ ​            ​"required"​: ​true​, 
+ ​            ​"value"​: ​"​" 
+ ​        }, 
+ ​        ​"SUDO"​: { 
+ ​            ​"description"​: ​"​Sudo mode is gives other controler for your bot , Leave it blank if you'r not using it , Number must be Like 94XXXXXXX,0​"​, 
+ ​            ​"required"​: ​false 
+ ​        }, 
+ ​        ​"BGM"​: { 
+ ​            ​"description"​: ​"​🎵 Bot auto sticker/audio reply, Type `audio` if you want to send only audio & type `sticker` if you want to send only stickers. | Type `true` for send both.​"​, 
+ ​            ​"required"​: ​true​, 
+ ​            ​"value"​: ​"​true​" 
+ ​        }, 
+ ​        ​"LANGUAGE"​: { 
+ ​            ​"description"​: ​"​Bot language - English => EN , Sinhala=> SI , Kannada => KN , Turkish => TR , Malayalam => ML , Russian => RU , Azerbaijian => AZ , Hindi => HI [ More Languages coming soon.. ]​"​, 
+ ​            ​"required"​: ​true​, 
+ ​            ​"value"​: ​"​EN​" 
+ ​        }, 
+ ​        ​"CAPTION"​: { 
+ ​            ​"description"​: ​"​Customizable CAPTION Message! Type a caption for bot medias.​"​, 
+ ​            ​"required"​: ​false​, 
+ ​            ​"value"​: ​"​༺🚀 Mᴀᴅᴇ Bʏ Ａｌｐｈａ-Ｘ ❄️࿐​" 
+ ​        }, 
+ ​        ​"EXTRA_MENU_TITLE"​: { 
+ ​            ​"description"​: ​"​Customizable EXTRA MENU TITLE! Type a titile for show under the commands list menu.​"​, 
+ ​            ​"required"​: ​false​, 
+ ​            ​"value"​: ​"​෴ ɢᴜɪᴅᴇ 👀​" 
+ ​        }, 
+ ​        ​"EXTRA_MENU_MESSAGE"​: { 
+ ​            ​"description"​: ​"​Customizable EXTRA MENU MESSAGE! Type a message for show under the commands list menu >> extra menu.​"​, 
+ ​            ​"required"​: ​false​, 
+ ​            "value": "ʀᴇᴀᴅ ᴛʜᴇ ɢᴜɪᴅᴇ 🍁 \n\n```Alpha-X Bot - Alpha Userbot is Open Source software open to development. \nThe user is responsible for all consequences that may arise from incorrect or misuse. \nSince it is an open source project, anyone can copy the software, add and remove,\nand use it in a way that they customize. In addition, plug-in support enables users to \ninstall their own plugins to the original software and use them as they wish.\nUsing the bot out of purpose will explicitly ban you.\nUsage is entirely the user's responsibility, Alpha Userbot is an \ninfrastructure only. Just as the operating system is not responsible \nfor the work done with the programs that are installed later, Alpha-X \nis not responsible for the usage purpose and method of the users.\nMarketing Alpha-X for money, making it available or having any material value\nıt is strictly forbidden to offer it for sale with anything. All legal investigations that may arise\nthe user is responsible.```" 
+ ​        }, 
+ ​        ​"COMMAND_EMOJI"​: { 
+ ​            ​"description"​: ​"​Customizable COMMAND LIST EMOJI! Type a emoji for show with commands.​"​, 
+ ​            ​"required"​: ​false​, 
+ ​            ​"value"​: ​"​❄️​" 
+ ​        }, 
+ ​        ​"DESC_EMOJI"​: { 
+ ​            ​"description"​: ​"​Customizable COMMAND LIST EMOJI! Type a emoji for show with discriptions.​"​, 
+ ​            ​"required"​: ​false​, 
+ ​            ​"value"​: ​"​🍁​" 
+ ​        }, 
+ ​        ​"WARN_EMOJI"​: { 
+ ​            ​"description"​: ​"​Customizable COMMAND LIST EMOJI! Type a emoji for show with warnings.​"​, 
+ ​            ​"required"​: ​false​, 
+ ​            ​"value"​: ​"​⚠️️​" 
+ ​        }, 
+ ​        ​"COMMAND_LIST_KEY"​: { 
+ ​            ​"description"​: ​"​Customizable COMMAND LIST KEY type a key to get all command list >> EX: alpha​"​, 
+ ​            ​"required"​: ​false​, 
+ ​            ​"value"​: ​"​alphaWA​" 
+ ​        }, 
+ ​        ​"ALIVE_MSG_KEY"​: { 
+ ​            ​"description"​: ​"​Customizable ALIVE MSG KEY type a key to check if bot work >> EX: alive​"​, 
+ ​            ​"required"​: ​false​, 
+ ​            ​"value"​: ​"​alive​" 
+ ​        }, 
+ ​        ​"ALIVE_PIC"​: { 
+ ​            ​"description"​: ​"​Customizable ALIVE PICTURE Photo! Type a link of image.​"​, 
+ ​            ​"required"​: ​false​, 
+ ​            ​"value"​: ​"​https://telegra.ph/file/dc8e4edc7230cedbdec2c.jpg​" 
+ ​        }, 
+ ​        ​"COMMAND_LIST_PIC"​: { 
+ ​            ​"description"​: ​"​Customizable COMMAND LIST MSG PICTURE PHOTO! Type a link of image.​"​, 
+ ​            ​"required"​: ​false​, 
+ ​            ​"value"​: ​"​https://telegra.ph/file/dc8e4edc7230cedbdec2c.jpg​"​  
+ ​        }, 
+ ​        ​"BIO_NAME"​: { 
+ ​            ​"description"​: ​"​Customizable Auto Bio Name Message!, type a name ot somthing to show with auto bio.​"​, 
+ ​            ​"required"​: ​false​, 
+ ​            ​"value"​: ​"​━──❄️──╮• Ａｌｐｈａ-Ｘ •╭──❄️──━​" 
+ ​       }, 
+ ​        ​"USER_NAME"​: { 
+ ​            ​"description"​: ​"​Enter your name here.​"​, 
+ ​            ​"required"​: ​true​, 
+ ​            ​"value"​: ​"​" 
+ ​       }, 
+ ​        ​"DOWNLOAD_SONG"​: { 
+ ​            ​"description"​: ​"​Customizable downloading song Message!.​"​, 
+ ​            ​"required"​: ​false​, 
+ ​            ​"value"​: ​"​*❄️ 🄳ᴏᴡɴʟᴏᴀᴅɪɴɢ ʏᴏᴜʀ sᴏɴɢ...* 📥​" 
+ ​       }, 
+ ​        ​"DOWNLOAD_SONG_PIC"​: { 
+ ​            ​"description"​: ​"​Customizable downloading song Message PICTURE! tipe a link of a pic.​"​, 
+ ​            ​"required"​: ​false​, 
+ ​            ​"value"​: ​"​https://thumbs.dreamstime.com/b/stereo-headphones-glitch-effect-music-electronic-devise-vector-icon-night-party-background-164226152.jpg​" 
+ ​       }, 
+ ​        ​"UPLOAD_SONG"​: { 
+ ​            ​"description"​: ​"​Customizable uploading song Message!.​"​, 
+ ​            ​"required"​: ​false​, 
+ ​            ​"value"​: ​"​*❄️ 🅄ᴘʟᴏᴀᴅɪɴɢ ʏᴏᴜʀ sᴏɴɢ...* 📤​" 
+ ​       }, 
+ ​        ​"DOWNLOAD_VIDEO"​: { 
+ ​            ​"description"​: ​"​Customizable downloading yt video Message!.​"​, 
+ ​            ​"required"​: ​false​, 
+ ​            ​"value"​: ​"​*❄️ 🄳ᴏᴡɴʟᴏᴀᴅɪɴɢ ʏᴏᴜʀ ᴠɪᴅᴇᴏ...* 📥​" 
+ ​       }, 
+ ​        ​"UPLOAD_VIDEO"​: { 
+ ​            ​"description"​: ​"​Customizable uploading yt video Message!.​"​, 
+ ​            ​"required"​: ​false​, 
+ ​            ​"value"​: ​"​*❄️ 🅄ᴘʟᴏᴀᴅɪɴɢ ʏᴏᴜʀ ᴠɪᴅᴇᴏ...* 📤​" 
+ ​       }, 
+ ​        ​"DOWNLOAD_VIDEO_PIC"​: { 
+ ​            ​"description"​: ​"​Customizable downloading video Message PICTURE! tipe a link of a pic.​"​, 
+ ​            ​"required"​: ​false​, 
+ ​            ​"value"​: ​"​https://moddingunited.xyz/wp-content/uploads/2021/06/PicsArt_06-18-08.57.23-1024x633.jpg​" 
+ ​       }, 
+ ​        ​"BOT_NAME"​: { 
+ ​            ​"description"​: ​"​Customizable BOT NAME! Type a Name for your bot.​"​, 
+ ​            ​"required"​: ​false​, 
+ ​            ​"value"​: ​"​≪━─━─━─━─🛡️─━─━─━─━≫​\n​          *❄️ Ａｌｐｈａ-Ｘ ❄️*​\n​        ╚╩══• •✠•❀•✠ • •══╩╝​" 
+ ​       }, 
+ ​        ​"WELCOME_GIF"​: { 
+ ​            ​"description"​: ​"​Customizable Welcome Message GIF! Type a link of gif.​"​, 
+ ​            ​"required"​: ​false​, 
+ ​            ​"value"​: ​"​https://telegra.ph/file/338cb7f0b2b01e463efcd.mp4​" 
+ ​       }, 
+ ​        ​"GOODBYE_GIF"​: { 
+ ​            ​"description"​: ​"​Customizable Goodbye Message GIF! Type a link of gif.​"​, 
+ ​            ​"required"​: ​false​, 
+ ​            ​"value"​: ​"​https://telegra.ph/file/88f85fe6850015ae49067.mp4​" 
+ ​       }, 
+ ​        ​"ANTI_LINK"​: { 
+ ​            ​"description"​: ​"​⚠️️ Link Blocking System. If anyone send link to group he was banded from group! ​"​, 
+ ​            ​"required"​: ​true​, 
+ ​            ​"value"​: ​"​false​" 
+ ​       }, 
+ ​        ​"ANTI_BADWORD"​: { 
+ ​            ​"description"​: ​"​🚫️️ BAD WORDS Blocking System. If anyone send badword to group he was banded from group! ​"​, 
+ ​            ​"required"​: ​true​, 
+ ​            ​"value"​: ​"​false​" 
+ ​       }, 
+ ​       ​"ANTI_BADWORD_KICK_MSG"​: { 
+ ​            ​"description"​: ​"​Customizable BAD WORDS Blocking System kick msg.​"​, 
+ ​            ​"required"​: ​false​, 
+ ​            ​"value"​: ​"​default​" 
+ ​       }, 
+ ​        ​"BLOCK_LINK"​: { 
+ ​            ​"description"​: ​"​⚠️️ Link Blocking System. If anyone send link with ( **YOU GIVEN TO **BLOCK_LINK_A** & **BLOCK_LINK_B** ) to group he was banded from group! ​"​, 
+ ​            ​"required"​: ​true​, 
+ ​            ​"value"​: ​"​false​" 
+ ​        }, 
+ ​        ​"AUTO_BIO"​: { 
+ ​            ​"description"​: ​"​Set true for auto date to your bio, time in biography.​"​, 
+ ​            ​"required"​: ​true​, 
+ ​            ​"value"​: ​"​false​" 
+ ​        }, 
+ ​        ​"BLOCK_LINK_A"​: { 
+ ​            ​"description"​: ​"​⚠️️ Type a link1 you want to remove if anyone send it.​"​, 
+ ​            ​"required"​: ​false​, 
+ ​            ​"value"​: ​"​chat.whatsapp.com​" 
+ ​        }, 
+ ​        ​"BLOCK_LINK_B"​: { 
+ ​            ​"description"​: ​"​⚠️️ Type a link2 you want to remove if anyone send it.​"​, 
+ ​            ​"required"​: ​false​, 
+ ​            ​"value"​: ​"​pornhub.com​" 
+ ​        }, 
+ ​        ​"ANTILINK_BAN_MSG"​: { 
+ ​           ​"description"​: ​"​Customizable AntiLink Ban Message! type message here.​"​, 
+ ​           ​"required"​: ​false​, 
+ ​           ​"value"​: ​"​default​" 
+ ​        }, 
+ ​        ​"HANDLERS"​: { 
+ ​            ​"description"​: ​"​Give Handlers For your commands​"​, 
+ ​            ​"required"​: ​true​, 
+ ​            ​"value"​: ​"​^[.,/#*?]​" 
+ ​        }, 
+ ​        ​"AI_LILY"​: { 
+ ​            ​"description"​: ​"​Turn your account into a chatbot! / AI Chat Bot LILY!​"​, 
+ ​            ​"required"​: ​true​, 
+ ​            ​"value"​: ​"​false​" 
+ ​        }, 
+ ​        ​"NO_LOG"​: { 
+ ​            ​"description"​: ​"​Set true if you don't want to see error log.​"​, 
+ ​            ​"required"​: ​true​, 
+ ​            ​"value"​: ​"​false​" 
+ ​        }, 
+ ​        ​"SEND_READ"​: { 
+ ​            ​"description"​: ​"​Write true if you want to throw seen.​"​, 
+ ​            ​"required"​: ​true​, 
+ ​            ​"value"​: ​"​true​" 
+ ​        }, 
+ ​        ​"HEROKU"​: { 
+ ​            ​"description"​: ​"​If it is running in Heroku, type true.​"​, 
+ ​            ​"required"​: ​true​, 
+ ​            ​"value"​: ​"​true​" 
+ ​        }, 
+ ​        ​"HEROKU_API_KEY"​: { 
+ ​            ​"description"​: ​"​Heroku API Key.​"​, 
+ ​            ​"required"​: ​true​, 
+ ​            ​"value"​: ​"​" 
+ ​        }, 
+ ​        ​"MUTE_MESSAGE"​: { 
+ ​            ​"description"​: ​"​Customizable Mute Message! Use => default, to change back.​"​, 
+ ​            ​"required"​: ​false​, 
+ ​            ​"value"​: ​"​default​" 
+ ​        }, 
+ ​        ​"BLOCK_CHAT"​: { 
+ ​            ​"description"​: ​"​Choose in which chat the bot won't work there. Ex: 945xxxx && 94xxxx-1xxx or 91xxxx,94xxx...​"​, 
+ ​            ​"required"​: ​false​, 
+ ​            ​"value"​: ​"​false​" 
+ ​        }, 
+ ​        ​"UNMUTE_MESSAGE"​: { 
+ ​            ​"description"​: ​"​Customizable Unmute Message! Use => default, to change back.​"​, 
+ ​            ​"required"​: ​false​, 
+ ​            ​"value"​: ​"​default​" 
+ ​        }, 
+ ​        ​"BLOCK_MESSAGE"​: { 
+ ​            ​"description"​: ​"​Customizable Block Message! Use => default, to change back.​"​, 
+ ​            ​"required"​: ​false​, 
+ ​            ​"value"​: ​"​default​" 
+ ​        }, 
+ ​        ​"UNBLOCK_MESSAGE"​: { 
+ ​            ​"description"​: ​"​Customizable Unblock Message! Use => default, to change back.​"​, 
+ ​            ​"required"​: ​false​, 
+ ​            ​"value"​: ​"​default​" 
+ ​        }, 
+ ​        ​"WORK_TYPE"​: { 
+ ​            ​"description"​: ​"​Alpha-X Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.​"​, 
+ ​            ​"required"​: ​true​, 
+ ​            ​"value"​: ​"​private​" 
+ ​        }, 
+ ​        ​"HEROKU_APP_NAME"​: { 
+ ​            ​"description"​: ​"​Heroku APP Name.​"​, 
+ ​            ​"required"​: ​true​, 
+ ​            ​"value"​: ​"​" 
+ ​        }, 
+ ​        ​"DEBUG"​: { 
+ ​            ​"description"​: ​"​‎Debug.​"​, 
+ ​            ​"required"​: ​true​, 
+ ​            ​"value"​: ​"​false​" 
+ ​        }, 
+ ​        ​"ALIVE_MESSAGE"​: { 
+ ​            ​"description"​: ​"​Customizable Alive Message! Use => default, to change back.​"​, 
+ ​            ​"required"​: ​false​, 
+ ​            ​"value"​: ​"​default​" 
+ ​        }, 
+ ​        ​"BAN_MESSAGE"​: { 
+ ​            ​"description"​: ​"​Customizable Ban Message! Use => default, to change back.​"​, 
+ ​            ​"required"​: ​false​, 
+ ​            ​"value"​: ​"​default​" 
+ ​        }, 
+ ​        ​"ADD_MESSAGE"​: { 
+ ​            ​"description"​: ​"​Customizable Add Message! Use => default, to change back.​"​, 
+ ​            ​"required"​: ​false​, 
+ ​            ​"value"​: ​"​default​" 
+ ​        }, 
+ ​        ​"KICKME_MESSAGE"​: { 
+ ​            ​"description"​: ​"​Customizable Kickme Message! Use => default, to change back.​"​, 
+ ​            ​"required"​: ​false​, 
+ ​            ​"value"​: ​"​default​" 
+ ​        }, 
+ ​        ​"PROMOTE_MESSAGE"​: { 
+ ​            ​"description"​: ​"​Customizable Promote Message! Use => default, to change back.​"​, 
+ ​            ​"required"​: ​false​, 
+ ​            ​"value"​: ​"​default​" 
+ ​        }, 
+ ​        ​"DEMOTE_MESSAGE"​: { 
+ ​            ​"description"​: ​"​Customizable Demote Message! Use => default, to change back.​"​, 
+ ​            ​"required"​: ​false​, 
+ ​            ​"value"​: ​"​default​" 
+ ​        }, 
+ ​        ​"AFK_MESSAGE"​: { 
+ ​            ​"description"​: ​"​Customizable AFK Message! Use => default, to change back.​"​, 
+ ​            ​"required"​: ​false​, 
+ ​            ​"value"​: ​"​default​" 
+ ​        }, 
+ ​        ​"NO_ONLINE"​: { 
+ ​            ​"description"​: ​"​Type true if you don't want to appear online.​"​, 
+ ​            ​"required"​: ​false​, 
+ ​            ​"value"​: ​"​true​" 
+ ​        } 
+ ​    }, 
+ ​    ​"addons"​: [{ 
+ ​      ​"plan"​: ​"​heroku-postgresql​" 
+ ​    }], 
+ ​    ​"buildpacks"​: [{ 
+ ​      ​"url"​: ​"​heroku-community/apt​" 
+ ​      }] 
+ ​  }
