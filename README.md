@@ -699,9 +699,9 @@ This project is protected by `GNU General Public Licence v3.0` license.
 <h1> ⚡ Developers 🔥 </h1>
   <div align="center">
     
-  [![SL ALPHA](https://github.com/SL-Alpha-X.png?size=110)](https://github.com/SL-Alpha-X) |  [![Alison](https://github.com/red-alison.png?size=110)](https://github.com/red-alison) 
+  [![GasComIT](https://github.com/gascomit.png?size=110)](https://github.com/gascomit) |  [![Alison](https://github.com/red-alison.png?size=110)](https://github.com/red-alison) 
 ------|------
-[~ SL ALPHA ~](https://github.com/SL-Alpha-X)  | [~ Alison Parker ~](https://github.com/red-Alison) 
+[GasCom IT](https://github.com/gascomit)  | [~ Alison Parker ~](https://github.com/red-Alison) 
   </div>
 
 </div>
